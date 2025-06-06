@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 55px;
+    height: 55px;
+}
+
+.header-list-item {
+    padding-left: 15px ;
+    list-style: none;
+}
+
+.header-list {
+    display: flex;
+}

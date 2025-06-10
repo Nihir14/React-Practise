@@ -1,3 +1,5 @@
+import './MyHeader.css'
+
 export default function MyHeader() {
     return (
         <>

@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
@@ -8,27 +9,6 @@
 body {
   font-family: "Inter", sans-serif;
   margin: 0;
+  background-color: #282D35;
 }
 
-header {
-  height: 80px;
-  background-color: #21222A;
-}
-
-nav {
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-nav > img {
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-}
-
-nav > span {
-    color: #61DAFB;
-    font-size: 1.5rem;
-    font-weight: 700;
-}

@@ -1,28 +1,25 @@
+import './Main.css'
+
 export default function Main() {
     return (
-        <section>
+        <section className='section'>
             <main className="main">
                 <h1 className="main-h1">Fun Facts About React</h1>
                 <ul className="main-ul">
                     <li className="main-list-item">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Accusantium, atque.
+                        Was first released in 2013
                     </li>
                     <li className="main-list-item">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Accusantium, atque.
+                        Was originally created by Jordan Walke
                     </li>
                     <li className="main-list-item">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Accusantium, atque.
+                        Has well over 200K stars on GitHub
                     </li>
                     <li className="main-list-item">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Accusantium, atque.
+                        Is maintained by Meta
                     </li>
                     <li className="main-list-item">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Accusantium, atque.
+                        Powers thousands of enterprise apps, including mobile apps
                     </li>
                 </ul>
             </main>
